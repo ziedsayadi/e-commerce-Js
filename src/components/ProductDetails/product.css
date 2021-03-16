@@ -1,0 +1,36 @@
+
+.root{
+    margin: 1.5rem 0.5rem;
+    max-width: 390px;
+    max-height: 480px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    position: relative;
+    overflow: hidden;
+}
+
+.Imge_container{
+    padding: 1.5rem;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.image {
+    max-height: 380px;
+    max-width: 300px;
+}
+
+.root:hover .Imge_container .image{
+    transform: scale(1.1);
+}
+#description{
+    bottom: -13rem;
+    transition: bottom 0.4s ease;
+
+}
+
+.root:hover #description{
+    bottom: -0.5rem;
+}
